@@ -8,9 +8,9 @@
 @media(min-width:992px){
     .family-page{
         position: absolute;
-       width: 80%;
+       width: 99%;
        height: 80%;
-       left: 300px;
+       
     }
 }
 @media(max-width:992px){
@@ -278,8 +278,8 @@ padding-right: 20px;
 
 .text-card{
 width: 100%;
-height: 40vh;
-background: #FFFFFF99;
+height: 35vh;
+
 
 border-radius: 30px;
 border: 1px solid #ffffff;
@@ -288,9 +288,16 @@ box-shadow:   2px  2px 5px 5px rgb(236, 237, 238, 0.75);
  
 
 }
+
+.text-card:hover{
+    background: #3C38E11A ;
+ 
+}
+
 @media(min-width:992px){
     .text-card{
         width: 25%;
+     
       
         
     }
@@ -346,14 +353,18 @@ margin-left: 5px;
 
 .text-card-2{
     width: 100%;
-    height: 40vh;
-    background: #3C38E11A;
+    height: 35vh;
+  
 
     
     border-radius: 30px;
     border: 1px solid #ffffff;
     margin-top: 20px;
     box-shadow:   2px  2px 5px 5px rgb(236, 237, 238, 0.75);
+}
+.text-card-2:hover{
+    background: #3C38E11A;
+ 
 }
 @media(min-width:992px){
     .text-card-2{
@@ -365,18 +376,21 @@ margin-left: 5px;
 
 .text-card-3{
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     background: #ffffff99;
     margin-top: 20px;
     border-radius: 30px;
     border: 1px solid #ffffff;
 box-shadow:   2px  2px 5px 5px rgba(236, 237, 238, 0.75);
 }
+.text-card-3:hover{
+    background: #3C38E11A;
+}
 
     @media(min-width:992px){
         .text-card-3{
             width: 25%;
-          height: 50vh;
+          height: 40vh;
            
 
             
@@ -403,6 +417,15 @@ box-shadow:   2px  2px 5px 5px rgba(236, 237, 238, 0.75);
     margin-top: 10 px;
     margin-left: 5px;
 
+}
+
+@media(min-width:992px){
+    .card-3-text{
+      
+      line-height: 20px;
+      margin-top: -15px;
+
+    }
 }
 @media(min-width:992px){
     .card-3{
@@ -604,14 +627,14 @@ text-align: center;
     border-bottom: 2px solid #EEEEEE ;
 }
 
-input:focus {
+.footer-input:focus {
     border:none !important;
 }
 
 @media(min-width:992px){
     .footer-input{
         width: 400px;
-        padding-top: 30px;
+       margin-top: 30px;
     }
 }
 
@@ -752,7 +775,7 @@ margin: 20px;
 @media(min-width:992px){
     .contact-us-footer{
         margin-top: -35px;
-        margin-left: 60%;
+        margin-left: 55%;
     }
 }
 
