@@ -604,7 +604,7 @@ text-align: center;
     border-bottom: 2px solid #EEEEEE ;
 }
 
-.footer-input:focus {
+input:focus {
     border:none !important;
 }
 
